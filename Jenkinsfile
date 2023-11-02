@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                // Your build steps here
+                echo "hello from Jenkinsfile_RT"
             }
         }
         // Add more stages if needed
