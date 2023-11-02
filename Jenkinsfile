@@ -1,8 +1,11 @@
 pipeline {
     agent {label "linux"}
-    stage('Hello') {
-        steps {
-            echo "hello from Jenkinsfile_ML"
+    stages {
+        stage('Hello') {
+            steps {
+                // Your build steps here
+            }
         }
+        // Add more stages if needed
     }
 }
